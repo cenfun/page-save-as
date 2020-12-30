@@ -24,7 +24,9 @@ await PSA({
 
 ## CLI
 ```sh
+#for global install: npm i page-save-as -g
 psa <url> <name> --type jpg
+#uses "npx psa ..." for local install
 ```
 
 ## Options
