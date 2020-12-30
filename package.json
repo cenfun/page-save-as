@@ -4,7 +4,7 @@
   "description": "Page save as PNG/PDF using chromium headless",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test.js"
   },
   "bin": {
     "psa": "lib/psa.js"
