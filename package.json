@@ -1,0 +1,27 @@
+{
+  "name": "page-save-as",
+  "version": "1.0.0",
+  "description": "Page save as PNG/PDF using chromium headless",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "psa": "lib/psa.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cenfun/page-save-as.git"
+  },
+  "dependencies": {
+    "commander": "^6.2.1",
+    "puppeteer-chromium-resolver": "^5.2.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0"
+  }
+}
