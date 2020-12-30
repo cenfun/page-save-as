@@ -31,11 +31,15 @@ psa <url> <name> --type jpg
 
 ## Options
 
-* --type  save type
-* --width  Page width  [default: 1920]
-* --edit   edit mode
+* --type  save type: jpg(default)/png/pdf
+* --width  page width  [default: 1920]
+* --edit   edit mode, will open page, press F12 into devtool to edit page elements util click OK 
+* --scroll  scroll to bottom for lazy load
+* --output  output path
+* --quality  quality for jpg format
 
 
 ## CHANGELOG
 
-* 1.0.0
+* 1.0.1
+    * fixed filename
