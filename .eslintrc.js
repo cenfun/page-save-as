@@ -40,7 +40,7 @@ module.exports = {
             "after": true,
             "before": false
         }],
-        "complexity": ["error", 8],
+        "complexity": ["error", 18],
         "curly": "error",
         "dot-location": ["error", "property"],
         "dot-notation": "error",
@@ -76,7 +76,7 @@ module.exports = {
         }],
         "max-nested-callbacks": ["error", 3],
         "max-params": ["error", 8],
-        "max-statements": ["error", 50],
+        "max-statements": ["error", 100],
         "new-cap": ["error", {
             "capIsNew": false,
             "newIsCap": true,

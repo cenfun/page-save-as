@@ -13,33 +13,47 @@ npm i page-save-as
 ## Node.js API
 ```
 const PSA = require("page-save-as");
-
 await PSA({
     url: "xxx",
     name: "xxx",
     type: "jpg/png/pdf"
 });
-
 ```
+see [test.js](./test/test.js)
+
+## API Default Options
+see [option.js](./lib/option.js)
 
 ## CLI
 ```sh
-#for global install: npm i page-save-as -g
-psa <url> <name> --type jpg
+#global install: 
+npm i page-save-as -g
+#execute command
+psa <url> --name filename --type jpg
 #uses "npx psa ..." for local install
 ```
 
-## Options
-
-* --type  save type: jpg(default)/png/pdf
-* --width  page width  [default: 1920]
-* --edit   edit mode, will open page, press F12 into devtool to edit page elements util click OK 
-* --scroll  scroll to bottom for lazy load
-* --output  output path
-* --quality  quality for jpg format
-
+## CLI Options
+* -n, --name `<name>`  save filename
+* -t, --type `<type>`    file type: jpg(default)/png/pdf
+* -w, --width `<width>`    page width
+* -s, --scroll    scroll to bottom
+* -e, --edit    edit mode")
+* -o, --output `<path>`    output path
+* -ds, --delay `<s>`    delay in seconds
+* -ts, --timeout `<s>`    timeout in seconds
 
 ## CHANGELOG
+
+* 1.0.3
+    * fixed filename
+
+* 1.0.2
+    * fixed output
+    * added delay
+    * updated scroll logic
+    * updated edit complete logic
+    * updated puppeteer-chromium-resolver to latest
 
 * 1.0.1
     * fixed filename
