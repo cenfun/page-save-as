@@ -13,7 +13,7 @@ npm i page-save-as
 ## Node.js API
 ```
 const PSA = require("page-save-as");
-await PSA({
+const option = await PSA({
     url: "xxx",
     name: "xxx",
     type: "jpg/png/pdf"
@@ -44,6 +44,9 @@ psa <url> --name filename --type jpg
 * -ts, --timeout `<s>`    timeout in seconds
 
 ## CHANGELOG
+
+* 1.0.4
+    * support edit for pdf format
 
 * 1.0.3
     * fixed filename
