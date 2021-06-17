@@ -1,6 +1,6 @@
 {
     "name": "page-save-as",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Page save as PNG/PDF using chromium headless",
     "main": "lib/index.js",
     "scripts": {
@@ -19,11 +19,11 @@
     "dependencies": {
         "commander": "^7.2.0",
         "eight-colors": "^1.0.0",
-        "inquirer": "^8.0.0",
-        "puppeteer-chromium-resolver": "^9.0.0",
+        "inquirer": "^8.1.1",
+        "puppeteer-chromium-resolver": "^10.0.0",
         "rimraf": "^3.0.2"
     },
     "devDependencies": {
-        "eslint": "^7.26.0"
+        "eslint": "^7.28.0"
     }
 }

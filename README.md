@@ -45,6 +45,10 @@ psa <url> --name filename --type jpg
 
 ## CHANGELOG
 
+* 1.0.5
+    * support local file
+    * updated PCR
+
 * 1.0.4
     * support edit for pdf format
 
