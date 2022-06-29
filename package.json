@@ -1,6 +1,6 @@
 {
     "name": "page-save-as",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Page save as PNG/PDF using chromium headless",
     "main": "lib/index.js",
     "scripts": {
